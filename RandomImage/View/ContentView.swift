@@ -9,12 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    // MARK: - Public Properties
-    
-    let navBarAppearence = UINavigationBarAppearance()
-    
     // MARK: - Private Properties
     
+    private let navBarAppearence = UINavigationBarAppearance()
     @StateObject private var imageLoader = ImageLoader()
     @State private var isButtonPressed = false
     
